@@ -4,8 +4,16 @@
     "overview": "Um ex-investigador da ONU embarca em uma corrida contra o tempo para impedir uma pandemia zumbi que ameaça dizimar a humanidade.",
     "company": "Paramount Pictures",
     "release_year": 2013,
+    "featured": true,
+    "cover": "/covers/movies/wwz.png"
+  },
+  "duplicate": {
+    "title": "Resident Evil: O Hóspede Maldito",
+    "overview": "Alice acorda em uma mansão sem memória e descobre uma instalação subterrânea infestada por mortos-vivos criados por uma corporação secreta.",
+    "company": "Columbia Pictures",
+    "release_year": 2002,
     "featured": false,
-    "cover": "images/world_war_z.png"
+    "cover": "/covers/movies/resident-evil.jpg"
   },
   "exterminio": {
     "title": "Extermínio",
@@ -22,14 +30,6 @@
     "release_year": 2004,
     "featured": false,
     "cover": "images/dawn_of_the_dead.png"
-  },
-  "resident_evil_o_hospede_maldito": {
-    "title": "Resident Evil: O Hóspede Maldito",
-    "overview": "Alice acorda em uma mansão sem memória e descobre uma instalação subterrânea infestada por mortos-vivos criados por uma corporação secreta.",
-    "company": "Screen Gems",
-    "release_year": 2002,
-    "featured": false,
-    "cover": "images/resident_evil.png"
   },
   "zumbilandia": {
     "title": "Zumbilândia",
