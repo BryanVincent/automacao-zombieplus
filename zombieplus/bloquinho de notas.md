@@ -71,6 +71,9 @@ test('deve cadastrar um lead na fila de espera', async ({ page }) => {
   // Xpath bem elaborado
   await page.click('//button[text()="Aperte o play... se tiver coragem"]')
   
+  // Xpath com combinação de class Pai + seletor
+  .click('.class seletor') ===> .click('.actions button')
+
   // Combinando a tag com o texto
   await page.getByRole('button', {name: 'Aperte o play... se tiver coragem'}).click()
   
@@ -127,6 +130,9 @@ $ >>> Termina na propiendade com "register"
     leadName = faker.person.fullName()
     leadEmail = faker.internet.email()
   })
+
+// Buscar linhas do HTML
+  page.getByRole('row')
 
 ------------------------------------------------------------------------------------------------------------------
 

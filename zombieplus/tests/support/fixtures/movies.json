@@ -15,68 +15,46 @@
     "featured": false,
     "cover": "/covers/movies/resident-evil.jpg"
   },
-  "exterminio": {
-    "title": "Extermínio",
-    "overview": "Após o vazamento de um vírus mortal, um homem acorda em Londres e encontra a cidade devastada por zumbis violentos.",
-    "company": "Fox Searchlight Pictures",
-    "release_year": 2002,
-    "featured": false,
-    "cover": "images/28_days_later.png"
-  },
-  "madrugada_dos_mortos": {
-    "title": "Madrugada dos Mortos",
-    "overview": "Um grupo de sobreviventes se refugia em um shopping center após uma infestação zumbi tomar conta do mundo.",
-    "company": "Universal Pictures",
-    "release_year": 2004,
-    "featured": false,
-    "cover": "images/dawn_of_the_dead.png"
-  },
-  "zumbilandia": {
-    "title": "Zumbilândia",
-    "overview": "Em um mundo pós-apocalíptico dominado por zumbis, um grupo improvável de sobreviventes segue regras próprias para continuar vivo.",
-    "company": "Columbia Pictures",
-    "release_year": 2009,
-    "featured": false,
-    "cover": "images/zombieland.png"
-  },
-  "invasao_zumbi": {
-    "title": "Invasão Zumbi",
-    "overview": "Durante uma viagem de trem, passageiros precisam lutar por suas vidas quando um surto zumbi toma conta da Coreia do Sul.",
-    "company": "Next Entertainment World",
-    "release_year": 2016,
-    "featured": false,
-    "cover": "images/train_to_busan.png"
-  },
-  "a_noite_dos_mortos_vivos": {
+  "to_remove": {
     "title": "A Noite dos Mortos-Vivos",
     "overview": "Um grupo de pessoas se refugia em uma casa enquanto mortos-vivos se levantam e cercam o local.",
-    "company": "Continental Distributing",
+    "company": "Universal Pictures",
     "release_year": 1968,
     "featured": false,
-    "cover": "images/night_of_the_living_dead.png"
+    "cover": "/covers/movies/mortos-vivos.jpg"
   },
-  "todo_mundo_quase_morto": {
-    "title": "Todo Mundo Quase Morto",
-    "overview": "Um homem comum tenta reconquistar sua ex-namorada em meio a um apocalipse zumbi com a ajuda de seu melhor amigo.",
-    "company": "Universal Pictures",
-    "release_year": 2004,
-    "featured": false,
-    "cover": "images/shaun_of_the_dead.png"
-  },
-  "eu_sou_a_lenda": {
-    "title": "Eu Sou a Lenda",
-    "overview": "Após um vírus dizimar a humanidade, um cientista sobrevive sozinho em Nova York tentando encontrar a cura enquanto enfrenta criaturas infectadas.",
-    "company": "Warner Bros.",
-    "release_year": 2007,
-    "featured": false,
-    "cover": "images/i_am_legend.png"
-  },
-  "rec": {
-    "title": "REC",
-    "overview": "Uma repórter acompanha bombeiros em uma ocorrência em um prédio, onde um vírus transforma os moradores em criaturas agressivas.",
-    "company": "Filmax",
-    "release_year": 2007,
-    "featured": false,
-    "cover": "images/rec.png"
+  "search": {
+    "input": "zumbi",
+    "outputs": [
+      "Zumbilândia",
+      "Invasão Zumbi",
+      "Meu Namorado é um Zumbi"
+    ],
+    "data": [
+      {
+        "title": "Zumbilândia",
+        "overview": "Em um mundo pós-apocalíptico dominado por zumbis, um grupo improvável de sobreviventes segue regras próprias para continuar vivo.",
+        "company": "Columbia Pictures",
+        "release_year": 2009,
+        "featured": false,
+        "cover": "/covers/movies/zumbilandia.jpg"
+      },
+      {
+        "title": "Invasão Zumbi",
+        "overview": "Durante uma viagem de trem, passageiros precisam lutar por suas vidas quando um surto zumbi toma conta da Coreia do Sul.",
+        "company": "Universal Pictures",
+        "release_year": 2016,
+        "featured": false,
+        "cover": "/covers/movies/invasao-zumbi.png"
+      },
+      {
+        "title": "Meu Namorado é um Zumbi",
+        "overview": "Após um apocalipse zumbi, um jovem morto-vivo começa a recuperar sua humanidade quando se apaixona por uma garota humana, desafiando as regras do novo mundo.",
+        "company": "Fox Entertainment",
+        "release_year": 2013,
+        "featured": false,
+        "cover": "/covers/movies/warm-bodies.jpg"
+      }
+    ]
   }
 }
