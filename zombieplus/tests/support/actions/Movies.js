@@ -16,6 +16,7 @@ export class Movies {
 
     async create(movie) {
         await this.goForm()
+        await this.page.waitForLoadState('networkidle')
         await this.page.getByLabel('Titulo do filme').fill(movie.title)
         await this.page.getByLabel('Sinopse').fill(movie.overview)
         await this.page.locator('#select_company_id .react-select__indicator')
@@ -46,6 +47,7 @@ export class Movies {
     }
 
     async tableHave(content) {
+        await this.page.waitForLoadState('networkidle')
         const rows = this.page.getByRole('row')
         await expect(rows).toContainText(content)
     }

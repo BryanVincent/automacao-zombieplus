@@ -17,10 +17,12 @@ export class TvShows {
 
     async createSeries(serie) {
         await this.goFormTvSeries()
+        await this.page.waitForLoadState('networkidle')
         await this.page.getByLabel('Titulo da série').fill(serie.title)
         await this.page.getByLabel('Sinopse').fill(serie.overview)
         await this.page.locator('#select_company_id .react-select__indicator')
             .click()
+            
         await this.page.locator('.react-select__option')
             .filter({hasText: serie.company})
             .click()

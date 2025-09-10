@@ -45,7 +45,7 @@ test('não deve cadastrar série quando os campos obrigatórios não são preenc
     ])
 })
 
-test('deve realizar busca por série pelo termo zumbi', async ({ page, request }) => {
+test('deve realizar busca por série pelo termo zombie', async ({ page, request }) => {
     const tvshows = data.search
     tvshows.data.forEach(async (m) => {
         await request.api.postTvShow(m)
